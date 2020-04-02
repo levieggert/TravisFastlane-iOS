@@ -13,6 +13,6 @@ class HomeViewModel {
     let title: String
     
     required init() {
-        title = "TravisFastlane"
+        title = "Travis+Fastlane"
     }
 }
