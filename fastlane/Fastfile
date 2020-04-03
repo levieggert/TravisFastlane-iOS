@@ -15,7 +15,8 @@ platform :ios do
     match(
       type: "appstore",
       readonly: true,
-      app_identifier: "com.levi.TravisFastlane"
+      app_identifier: "com.levi.TravisFastlane",
+      verbose: true
     )
 
     build_app(
