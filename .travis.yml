@@ -23,4 +23,4 @@ install:
 jobs:
     include:
     - name: “Beta”
-      script: fastlane beta --verbose
+      script: fastlane build_release --verbose

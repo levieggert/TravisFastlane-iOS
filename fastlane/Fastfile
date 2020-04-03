@@ -1,0 +1,10 @@
+
+default_platform(:ios)
+
+platform :ios do
+  
+  desc "This lane will deploy the app to TestFlight."
+  lane :build_release do
+    puts "Hello Fastfile"
+  end
+end
