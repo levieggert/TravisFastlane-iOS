@@ -6,6 +6,8 @@ platform :ios do
   desc "This lane will deploy the app to TestFlight."
   lane :build_release do
     
+    xcversion(version: "11.3.1")
+
     xcode_project = "TravisFastlane.xcodeproj"
     ipa_name = "Release" + ".ipa"
   
