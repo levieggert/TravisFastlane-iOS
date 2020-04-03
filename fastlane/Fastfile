@@ -8,8 +8,7 @@ platform :ios do
     
     xcode_project = "TravisFastlane.xcodeproj"
     build_number = get_build_number(xcodeproj: xcode_project)
-    version_number = get_version_number(xcodeproj: xcode_project)
-    ipa_name = "Release" + "v" + version_number + "b" + build_number + ".ipa"
+    ipa_name = "Release" + "_" + build_number + ".ipa"
   
     puts "Xcode Project: " + xcode_project
     puts "Build Number: " + build_number
