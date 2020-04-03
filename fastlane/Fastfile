@@ -5,6 +5,13 @@ platform :ios do
   
   desc "This lane will deploy the app to TestFlight."
   lane :build_release do
-    puts "Hello Fastfile"
+    puts "Begin build_release"
+    puts "End build_release"
+  end
+
+  desc "This lane will upload to TestFlight."
+  lane :upload_to_testflight do
+    puts "Begin upload_to_testflight"
+    puts "End upload_to_testflight"
   end
 end

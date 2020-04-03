@@ -22,5 +22,7 @@ install:
 
 jobs:
     include:
-    - name: “Beta”
+    - stage: build_release
       script: fastlane build_release --verbose
+    - state: upload_to_testflight
+      script: fastlane upload_to_testflight --verbose
