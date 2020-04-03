@@ -10,8 +10,6 @@ platform :ios do
     ipa_name = "Release" + ".ipa"
   
     puts "Xcode Project: " + xcode_project
-    puts "Build Number: " + build_number
-    puts "Version Number: " + version_number
     puts "IPA Name: " + ipa_name
 
     build_app(
